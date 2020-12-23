@@ -1,16 +1,14 @@
-import java.util.Scanner;
+import java.util.Random;
 class employeeAttendance {
       public static void main(String[] args)
       {
-            Scanner sc = new Scanner(System.in);
-            int attendance = sc.nextInt();
-            switch (attendance) {
-            case 1:
+            Random num = new Random();
+            int attendance = num.nextInt(2);
+            if (attendance == 0) {
                   System.out.println("Employee is present");
-                  break;
-            case 2:
+            }
+            else {
                   System.out.println("Employee is not present");
-                  break;
             }
       }
 }
