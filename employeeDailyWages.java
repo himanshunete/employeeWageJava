@@ -1,5 +1,20 @@
 
-class employeeDailyWages {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class employeeDailyWages {
       public static void main(String[] args)
       {
             int WagePerHour=20;
